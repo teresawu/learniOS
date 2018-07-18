@@ -3,6 +3,7 @@
 //  learniOSTests
 //
 //  Created by Yayi Wu on 18/07/2018.
+//  Copyright © 2018 Yayi Wu. All rights reserved.
 //
 
 import XCTest
