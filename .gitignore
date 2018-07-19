@@ -1,0 +1,27 @@
+# Mac OS X
+*.DS_Store
+
+## Build generated
+./build/
+DerivedData/
+
+# Xcode
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcworkspace/
+project.xcworkspace/
+xcuserdata/
+
+# Podfiles
+Pods/
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
