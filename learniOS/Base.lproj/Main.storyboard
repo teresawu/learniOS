@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="VlL-iy-4TC">
-                                <rect key="frame" x="20" y="40" width="647.5" height="498.5"/>
+                                <rect key="frame" x="20" y="40" width="647.5" height="462.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cK-KG-aL3">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -28,21 +28,16 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" text="Enter meal name" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Zzc-bc-5b7">
-                                        <rect key="frame" x="0.0" y="26.5" width="129" height="30"/>
+                                        <rect key="frame" x="0.0" y="26.5" width="200" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="fn5-3l-Rpg"/>
+                                        </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="abz-57-8kR">
-                                        <rect key="frame" x="0.0" y="62.5" width="151" height="30"/>
-                                        <state key="normal" title="Set Default Label Text"/>
-                                        <connections>
-                                            <action selector="foo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="elF-Cv-5rA"/>
-                                            <action selector="setDefaultLabelText:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JqP-Ok-inX"/>
-                                        </connections>
-                                    </button>
                                     <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="noImageSelected" highlightedImage="noImageSelected" translatesAutoresizingMaskIntoConstraints="NO" id="6L7-ZY-GEd">
-                                        <rect key="frame" x="0.0" y="98.5" width="647.5" height="400"/>
+                                        <rect key="frame" x="0.0" y="62.5" width="647.5" height="400"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="2YT-Qj-UVt"/>

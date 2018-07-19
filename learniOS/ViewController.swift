@@ -30,10 +30,6 @@ class ViewController: UIViewController, UITextFieldDelegate, UIImagePickerContro
         mealNameLabel.text = textField.text
     }
     
-    @IBAction func setDefaultLabelText(_ sender: Any) {
-         mealNameLabel.text = "Default Text"
-    }
-    
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController){
         // Dismiss the picker if the user canceled.
         dismiss(animated: true, completion: nil)
